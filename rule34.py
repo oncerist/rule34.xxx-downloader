@@ -191,8 +191,8 @@ high_res=1
 
 
 #the tag can be written in advance, or written when the program is running,only one effect at a time
-tag='buckethead_ero sound'
-#tag = input("Please enter tag: ")
+#tag='buckethead_ero sound'
+tag = input("Please enter tag: ")
 #Main(tag)  
 
 
@@ -200,7 +200,7 @@ tag='buckethead_ero sound'
 #MultipleTask function will download multiple tags at once in the order of taglist
 #When using Main (downloading one tag at a time) or MultipleTask (downloading multiple tags at one time),
 #please add # before one of the lines of code, and do not add the other.
-taglist = ['buckethead_ero sound']
+#taglist = ['buckethead_ero sound']
 MultipleTask(taglist)
 
 
