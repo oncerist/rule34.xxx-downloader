@@ -200,7 +200,7 @@ tag = input("Please enter tag: ")
 #MultipleTask function will download multiple tags at once in the order of taglist
 #When using Main (downloading one tag at a time) or MultipleTask (downloading multiple tags at one time),
 #please add # before one of the lines of code, and do not add the other.
-#taglist = ['buckethead_ero sound']
+taglist = ['']
 MultipleTask(taglist)
 
 
