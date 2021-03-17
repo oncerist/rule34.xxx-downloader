@@ -158,7 +158,7 @@ def MultipleTask(taglist):
 
 def Main(tag):
     global path
-    path = r"D:\1myword\download"
+    path = r"C:\Users\Administrator\download"
     path=path+'\\'+tag.replace(' ','-').replace('\\','').replace(':','').replace('*','')
     if not os.path.exists(path):
         os.makedirs(path)
@@ -175,7 +175,7 @@ def Main(tag):
 
 #file save path
 #You can modify the following line of code to customize the download path
-path = r"G:\DownLoad"
+path = r"C:\Users\Administrator\download"
 
 #The default download path is the 'test' folder under the folder where the program is located
 #Delete the line below, or prefix the line with # to use a custom path
@@ -209,8 +209,4 @@ MultipleTask(taglist)
 # .txt.
 #Queue_downloader.start()
 
-
-
-if GetHours()<=6:
-    os.system("shutdown -s -t  300")
 
